@@ -45,4 +45,4 @@ async def extract(ctx, mass: str):
         await ctx.send(f"No lines found containing the keyword '{mass}'.")
 
 # Run the bot (replace "YOUR_BOT_TOKEN" with your actual token)
-bot.run("MTMxNDY5ODMyNjg3NjIyOTcyMg.G-xNKe.-wh5xZ8T9ZeZchnbDyzDe5-Y7-H4x5jSM_YZO4")
+bot.run("MTMxNDY5ODMyNjg3NjIyOTcyMg.G23TZF.NIhzw5Rh_q_3c3m4t18yYy0UrarGw_qx2x13eE")
