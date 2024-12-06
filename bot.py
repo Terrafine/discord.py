@@ -16,7 +16,7 @@ async def on_ready():
     print(f'Logged in as {bot.user.name}')
 
 # Command: Extract lines containing the specified keyword
-@bot.command()
+@bot.command(read)
 async def extract(ctx, mass: str):
     # Ensure a file is attached to the message
     if not ctx.message.attachments:
